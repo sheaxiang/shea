@@ -3,6 +3,7 @@
     "description": "The Shea Framework.",
     "keywords": ["framework", "shea", "php"],
     "license": "MIT",
+    "type": "project",
     "authors": [
         {
             "name": "sheaxiang",
