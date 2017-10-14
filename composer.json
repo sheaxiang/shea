@@ -1,0 +1,26 @@
+{
+    "name": "sheaxiang/shea",
+    "description": "The Shea Framework.",
+    "keywords": ["framework", "shea"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sheaxiang",
+            "email": "sheaxiang@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "noahbuscher/macaw": "dev-master",
+        "illuminate/database": "*",
+        "filp/whoops": "*",
+        "symfony/var-dumper": "^3.3",
+        "illuminate/view": "*",
+        "illuminate/config": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
