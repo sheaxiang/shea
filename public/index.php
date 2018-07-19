@@ -1,11 +1,9 @@
 <?php
 
-// 定义 PUBLIC_PATH
-
-define('PUBLIC_PATH', __DIR__);
+define('Shea_START', microtime(true));
 
 // 启动器
-require PUBLIC_PATH . '/../system/bootstrap.php';
+require __DIR__ . '/../system/bootstrap.php';
 
 // 路由配置
 require '../config/routes.php';
