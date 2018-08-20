@@ -9,5 +9,7 @@ class IndexController extends BaseController
     public static function index()
     {
         dd(Index::all());
+
+
     }
 }
