@@ -10,5 +10,6 @@ class IndexController extends BaseController
     {
         dd(Index::all());
 
+
     }
 }
