@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Models\Index;
+use Shea\Component\Http\Request;
 
-class IndexController extends BaseController
-{
-    public static function index()
-    {
-        dd(Index::all());
+class IndexController {
+
+    public function index(Request $request, $id){
+        return ['asdsa'];
     }
 }

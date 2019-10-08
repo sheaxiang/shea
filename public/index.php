@@ -1,9 +1,14 @@
 <?php
 
-define('Shea_START', microtime(true));
+require __DIR__.'/../vendor/autoload.php';
 
-// 启动器
-require __DIR__ . '/../system/bootstrap.php';
+$app = require_once __DIR__.'/../bootstrap/app.php';
 
-// 路由配置
-require '../config/routes.php';
+$kernel = $app->make(Shea\Contracts\Http\Kernel::class);
+    
+$response = $kernel->handle(
+    $request = Shea\Component\Http\Request::capture()
+);
+
+$response->send();
+
