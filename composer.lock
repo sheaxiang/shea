@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "263ecbd83e0d35b5a4972c6a381d1efb",
+    "content-hash": "ad11dc1e2b64ba3473cb92f08b566e07",
     "packages": [
         {
             "name": "phpoption/phpoption",
@@ -169,6 +169,66 @@
                 "psr-3"
             ],
             "time": "2018-11-20T15:27:04+00:00"
+        },
+        {
+            "name": "sheaxiang/framework",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sheaxiang/framework.git",
+                "reference": "5ee10e9d905d82bc7719df26f3807177a369cb85"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sheaxiang/framework/zipball/5ee10e9d905d82bc7719df26f3807177a369cb85",
+                "reference": "5ee10e9d905d82bc7719df26f3807177a369cb85",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "psr/container": "~1.0",
+                "symfony/finder": "^4.3",
+                "symfony/http-foundation": "^4.3",
+                "symfony/http-kernel": "~4.3",
+                "symfony/routing": "^4.3",
+                "symfony/var-dumper": "^4.3",
+                "vlucas/phpdotenv": "^3.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/shea/Component/Support/helpers.php"
+                ],
+                "psr-4": {
+                    "Shea\\": "src/shea/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "shea",
+                    "email": "642290531@qq.com"
+                }
+            ],
+            "description": "The Shea Framework.",
+            "keywords": [
+                "framework",
+                "shea",
+                "sheaxiang"
+            ],
+            "time": "2019-10-08T07:50:30+00:00"
         },
         {
             "name": "symfony/debug",

@@ -1,8 +1,7 @@
 <?php
 
-
 $app = new Shea\App(
-    realpath(__DIR__.'/../')
+    dirname(__DIR__)
 );
 
 $app->singleton(

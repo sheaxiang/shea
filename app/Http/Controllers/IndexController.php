@@ -6,7 +6,7 @@ use Shea\Component\Http\Request;
 
 class IndexController {
 
-    public function index(Request $request, $id){
-        return ['asdsa'];
+    public function index(Request $request){
+        return 'hello world';
     }
 }

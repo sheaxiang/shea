@@ -11,10 +11,10 @@ class ComposerStaticInit46547d9e3704fbfd0b4ce824abb5a24b
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
-        '7e3ae969000753c2428b5daba858d56d' => __DIR__ . '/../..' . '/src/shea/Component/Support/helpers.php',
+        'dbd63fd084b6441f62c0ed984cc5074e' => __DIR__ . '/..' . '/sheaxiang/framework/src/shea/Component/Support/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -131,7 +131,7 @@ class ComposerStaticInit46547d9e3704fbfd0b4ce824abb5a24b
         ),
         'Shea\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/shea',
+            0 => __DIR__ . '/..' . '/sheaxiang/framework/src/shea',
         ),
         'Psr\\Log\\' => 
         array (
