@@ -11,7 +11,7 @@
     "license": "MIT",
     "keywords": ["framework", "shea", "sheaxiang"],
     "require": {
-        "php": ">=7.0.0",
+        "php": "^7.2",
         "sheaxiang/framework": "^1.0"
     },
     "require-dev": {
