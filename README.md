@@ -13,3 +13,11 @@ It's recommended that you use [Composer](https://getcomposer.org/) to install Sh
 ```bash
 $ composer create-project sheaxiang/shea
 ```
+
+## Feature
+
+- Service Container
+- Service Providers
+- Facades
+- Routing
+- Illuminate/Database

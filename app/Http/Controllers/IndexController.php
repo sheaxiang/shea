@@ -3,11 +3,15 @@
 namespace App\Http\Controllers;
 
 use Shea\Component\Http\Request;
+use Shea\Component\Support\Facades\DB;
 
 class IndexController {
 
     public function index(Request $request){
-        dd(\App::basePath());
-        return 'hello world';
+        return 'hello world :)';
+    }
+
+    public function api(Request $request){
+        return 'hello api :)';
     }
 }
