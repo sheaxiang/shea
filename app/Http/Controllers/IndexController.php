@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Shea\Component\Http\Request;
-use Shea\Component\Support\Facades\DB;
 
 class IndexController {
 
@@ -12,6 +11,6 @@ class IndexController {
     }
 
     public function api(Request $request){
-        return 'hello api :)';
+        return response()->json('hello api :)');
     }
 }
